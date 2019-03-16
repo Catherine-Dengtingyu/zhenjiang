@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    color: #E7E7E7;
+}
+a{
+    text-decoration:none;
+    color: #7B7B7B;
+}
+input{
+    width: 345px;
+    height: 50px;
+    box-sizing: border-box;
+    border:1px solid #e0e0e0;
+    outline: none;
+}
+input::-webkit-input-placeholder { 
+    color: #ACACAC; 
+} 
+/* logo start */
+.top-logo {
+    display: inline-block;
+    width: 200px;
+    height: 98px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+}
+.top{
+    width: 1130px;
+    height:98px;
+    margin: 0 auto;
+}
+/* logo end */
+/*center bg start */
+.bg{
+    background: #1e2f40;
+    width: 100%;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg);
+    position: relative;
+}
+.scan-login{
+    display: none;
+}
+.img{
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.miapp{
+    color: #f56600;
+    margin: 0 5px;
+}
+.form{
+    width: 410px;
+    height: 530px;
+    background: #ffffff;
+    position: absolute;
+    right: 106px;
+    bottom: 0;
+    text-align: center;
+}
+.nav{
+   line-height: 85px;
+    font-size: 24px;
+    color: #7B7B7B;
+}
+.nav span:hover{
+    color: #f56600;
+}
+.line {
+    width: 1px;
+    height: 24px;
+    margin: 0 42px 0 35px;
+    border: 1px solid #e0e0e0;
+}
+.active{
+    color: #f56600;
+}
+.user{
+    margin-top: 20px;
+    margin-bottom:15px;
+    padding-left: 15px;
+}
+.pwd{
+    margin-bottom:25px;
+    padding-left: 15px;
+}
+.btn{
+    background: #FF6700;
+    border:none;
+    color: #eee;
+    font-size: 14px;
+}
+.register{
+    margin-top: -10px;
+}
+.register>span:first-child>a{
+    color:#f56600;
+}
+.register>span+span{
+    margin-left: 97px;
+}
+.register>span+span>a{
+    color: #ACACAC;
+}
+fieldset{
+    border: 0;
+}
+.oth_type_tit {
+    border-top: 1px solid #cecece;
+    padding-top: 10px;
+    padding-bottom: 10px\9;
+    
+}
+.oth_type_txt {
+    color: #bbb;
+}
+.oth_type_txt {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100% \9;
+}
+.other-login-type{
+    width: 344px;
+    margin-left:33px;
+    text-align: center;
+    margin-top: 122px;
+}
+.other-login-links i{
+    font-size: 30px;
+    margin:0 34px 0 0;
+}
+.qq{
+    color: #0288D1;
+    margin-left: 20px;
+}
+.weibo{
+    color: #D32F2F;
+}
+.alipay{
+    color: #00AAEE;
+}
+.wechat{
+    color: #00D20D;
+}
+/* center bg end */
+/* bottom start */
+.bottom{
+    margin-top: 0;
+    padding-top: 70px;
+    height: 80px;
+}
+.footer{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.footer-list{
+    list-style: none;
+    height: 19px;
+    position: relative;
+    text-align: center;
+}
+.footer-list li{
+    height: 19px;  
+    display: inline-block; 
+}
+.footer-list a{
+    display: inline-block;
+    padding: 0 10px;
+    color:#7B7B7B;
+}
+p{
+    text-align: center;
+    margin-top: -22px;
+    margin-bottom:20px;
+    color: #7B7B7B;
+}
+/* bottom end */

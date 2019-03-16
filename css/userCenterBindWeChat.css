@@ -1,0 +1,71 @@
+body{
+    color: #505050;    
+}
+.bind{
+    width: 700px;
+    margin: 0 auto 0 auto;
+}
+.line{
+    width: 700px;
+    border: 1px dashed rgb(226, 223, 223);
+    /* background: rgb(226, 223, 223); */
+}
+.bind-title{
+    line-height: 30px;
+    border-left: 4px solid #19BEBE;
+    padding-left: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.bind-phone{
+    width:495px;
+    height: 65px;
+    background: #FFFFFF;
+    margin: 20px 0 30px 30px;
+    font-size: 10px;
+    position: relative;
+    border: 1px solid rgb(226, 223, 223);
+}
+.bind-wechat{
+    width:495px;
+    height: 65px;
+    background: #FFFFFF;
+    margin-left: 30px;
+    font-size: 10px;
+    position: relative;
+    border: 1px solid rgb(226, 223, 223);
+}
+button{
+    width: 80px;
+    height: 30px;
+    background: #FEA700;
+    color:#FFF9EE;
+    font-size: 15px;
+    border: none;
+}
+.bind-phone>img{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.bind-wechat>img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.bind-phone>button,.bind-wechat>button{
+    position: absolute;
+    right: 60px;
+    top: 17.5px;
+}
+.description{
+    position: absolute;
+    left: 72px;
+    top: 25px;
+    height: 40px;
+}
+p{
+    margin-top: -10px;
+}

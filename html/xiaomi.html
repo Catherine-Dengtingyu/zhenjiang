@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/xiaomi.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1072586_2lpd2wlss8c.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+    <!-- top start -->
+    <div class="top">
+        <a class="top-logo" href="https://tungty.gitee.io/zhenjiang/html/xiaomiguanwang.html" alt="guanwang"></a>
+    </div>
+    <!-- top end -->
+    <!-- login form start -->
+    <div class="bg">
+        <div class="form">
+            <div class="nav">
+                <span class="active" href="">账号登录</span>
+                <span class="line"></span>
+                <span href="">扫码登录</span>
+            </div>
+            <!-- form content start -->
+            <div class="form-content">
+                <!-- account login start -->
+                <div class="account-login">
+                    <!-- account start -->
+                    <div class="account">
+                            <p><input class="user" type="text" placeholder="邮箱/手机号码/小米ID"></p>
+                            <p><input class="pwd" type="text" placeholder="密码"></p>
+                            <p><input class="btn" type="button" value="登录"></p>
+                    </div>
+                        <!-- accont end -->
+                        <!-- register start -->
+                    <div class="register">
+                            <span><a href="">手机短信登录/注册</a></span>
+                            <span>
+                                <a href="">立即注册</a>
+                                <span>|</span>
+                                <a href="">忘记密码</a>
+                            </span>
+                    </div>
+                    <!-- register end -->
+                    <!-- other login type start -->
+                    <div class="other-login-type">
+                        <fieldset class="oth_type_tit">
+                            <legend align="center" class="oth_type_txt">其他方式登录</legend>
+                        </fieldset>
+                        <div class="other-login-links">
+                            <a class="qq" href=""><i class="iconfont icon-QQ1"></i></a>
+                            <a class="weibo" href=""><i class="iconfont icon-weibo2"></i></a>
+                            <a class="alipay" href=""><i class="iconfont icon-zhifubao"></i></a>
+                            <a class="wechat" href=""><i class="iconfont icon-weixin1"></i></a>
+                        </div>
+                    </div>
+                    <!-- other login type end -->
+                </div>
+                <!-- account login end -->
+                <div></div>
+                <!-- scan-login start -->
+                <div class="scan-login">
+                    <div class="img">
+                        <img src="../images/download.png" alt="">
+                    </div>
+                    <div class="description">
+                        <p>使用<span class="miapp">小米商城APP</span>扫一扫</p>
+                        <p>小米手机可打开「设置」&gt;「小米帐号」扫码登录</p>
+                    </div>
+                </div>
+                <!-- scan login end -->
+            </div>
+            <!-- form content end -->
+        </div>
+    </div>
+    <!-- login form end -->
+    <!-- bottom start -->
+    <div class="bottom">
+        <div class="footer">
+            <ul class="footer-list">
+                <li><a href="javascript:void(0)" data-lang="zh_CN" class="lang-select-li current">简体</a>|</li>
+                <li><a href="?callback=https%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Forder.mi.com%252Fportal%26sign%3DZjFkMjE5MThiMzI0ZTlkMTU0NzVmMjIxMDYwYzg4ZDg4MWU5M2FkMQ%2C%2C&amp;sid=mi_eshop&amp;_bannerBiz=mistore&amp;_qrsize=180&amp;_locale=zh_TW" data-lang="zh_TW" class="lang-select-li">繁体</a>|</li>
+                <li><a href="?callback=https%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Forder.mi.com%252Fportal%26sign%3DZjFkMjE5MThiMzI0ZTlkMTU0NzVmMjIxMDYwYzg4ZDg4MWU5M2FkMQ%2C%2C&amp;sid=mi_eshop&amp;_bannerBiz=mistore&amp;_qrsize=180&amp;_locale=en" data-lang="en" class="lang-select-li">English</a>|</li>
+                <li><a href="https://static.account.xiaomi.com/html/faq/faqList.html" target="_blank">常见问题</a>|</li>
+                <li><a id="msg-privacy" href="https://www.mi.com/about/privacy/" target="_blank">隐私政策</a></li>
+            </ul>
+        </div>
+        <p class="nf-intro">小米公司版权所有-京ICP备10046444-<a class="beian-record-link" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134"><span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>京公网安备11010802020134号</a>-京ICP证110507号</p>
+    </div>
+    <!-- bottom end -->
+
+    <script>
+        $(".nav span").click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+            console.log($(this).index())
+            $(".form-content>div").eq($(this).index()).show().siblings().hide()
+        })
+    </script>
+</body>
+</html>

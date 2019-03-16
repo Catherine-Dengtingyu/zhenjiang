@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #19BEBE;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.container-right-content{
+    height: 150px;
+    width: 808px;
+    background: #EDEDED;
+    border-bottom: 0.5px solid rgb(226, 223, 223);
+    border-left: 0.5px solid rgb(226, 223, 223);
+    position: relative;
+}
+.img{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #505050;    
+}
+.img>img{
+    position: absolute;
+    left: 45px;
+    top: 20.5px;
+}
+.img>p{
+    margin-left: 165px;
+}
+.img>img+p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.img>img+p+p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.img>p:last-child{
+    font-size: 17px;
+}
+.vertical-line{
+    display: inline-block;
+    width: 1px;
+    height: 100px;
+    background: #CECECE;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+.bind{
+    width: 428px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+}
+.bind-wechat{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+}
+.bind-wechat>img{
+    position: absolute;
+    left: 0;
+    top: 55px;
+}
+.bind-wechat>img+p{
+    margin-top: 55px;
+}
+.bind-wechat p{
+    margin-left: 50px;
+}
+.bind-phone{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 150px;
+}
+.bind-phone>img{
+    position: absolute;
+    right: 200px;
+    top:55px;
+}
+.bind-phone>img+p{
+    margin-top: 55px;
+    margin-right: 115px;
+}

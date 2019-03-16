@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #8C8C8C;
+}
+/* top navbar start */
+.top{
+    height: 40px;
+    background: #FAFAFA;
+    border:1px solid #DFDFDF;
+}
+.top-content{
+    width: 1240px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.top-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.top-right{
+    position: absolute;
+    right:0;
+    top: 0;
+}
+.top-left a:not(.dayi){
+    display: inline-block;
+    line-height: 20px;
+    border-right: 1px solid #DFDFDF;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #8C8C8C;
+    padding-right: 10px;
+    padding-left: 4px;
+}
+.top-right a:not(.denglu){
+    display: inline-block;
+    line-height: 20px;
+    border-right: 1px solid #DFDFDF;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #8C8C8C;
+    padding-right: 10px;
+    padding-left: 4px;
+}
+.dayi,.denglu{
+    display: inline-block;
+    line-height: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #8C8C8C;
+    padding-left: 4px;
+}
+/* top navbar end  */
+/* container start */
+.container{
+    width: 1240px;
+    margin:0 auto;
+}
+/* header start */
+.header{
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.input{
+    width: 382px;
+    height: 43px;
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+    position: absolute;
+    top: 27px;
+    right:178px;
+    box-sizing: border-box;
+}
+.search{
+    width: 43px;
+    height: 43px;
+    box-sizing: border-box;
+    background-image: url("../images/xiaomiguanwang/fangdajing.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: #ffffff;
+    border: 1px solid #CCCCCC;
+    position: absolute;
+    top: 27px;
+    right:136px;
+}
+.shopping-cart{
+    width: 126px;
+    height: 43px;
+    box-sizing: border-box;
+    background-image: url("../images/xiaomiguanwang/shopcar.png");
+    background-repeat: no-repeat;
+    background-position-x: 28px;
+    background-position-y: 14px;
+    padding-left: 20px;
+    background-color: #FFDB3D;
+    color:#333;
+    border:1px solid #FFDB3D;
+    font-size: 16px;
+    position: absolute;
+    top: 27px;
+    right: 0px;
+}
+.input-tag{
+    font-size: 10px;
+    position: absolute;
+    top: 40.5px;
+    right: 200px;
+}
+.input-tag>a{
+    background: #F3F3F3;
+}
+.clock{
+    font-size: 10px;
+    color: #8C8C8C;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.clock>img{
+    vertical-align: text-top;
+    margin-right: 10px;
+}
+/* header end */
+/* content navbar start */
+.content-nav{
+    margin-bottom: 30px;
+    position: relative;
+}
+/* left navber start */
+.left-nav{
+    width: 248px;
+}
+.left-nav a{
+    font-size: 10px;
+}
+.left-nav li{
+    list-style: none;
+}
+.left-nav>div>ul>li:first-child{
+    color: #FF4A00;
+    font-size: 10px;
+    margin-left: 25px;
+}
+.nav-all-type{
+    line-height: 40px;
+    background: #FF4A00;
+    padding-left: 25px;
+}
+.nav-all-type>a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.left-nav>div>ul>li:last-child{
+    padding-left: 25px;
+    margin-top:10px;
+}
+.left-nav>div:not(:first-child){
+    height: 74px;
+    width: 248px;
+    border-left: 0.5px solid #DFDFDF;
+    border-bottom: 0.5px solid #DFDFDF;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+/* left navbar end */
+/* right navbar start */
+.right-nav{
+    width: 992px;
+    position:absolute;
+    right: 0;
+    top: 0;
+    border-right: 0.5px solid #DFDFDF;
+    border-bottom: 0.5px solid #DFDFDF;
+}
+/* first page start */
+.first-page{
+    width: 992px;
+    line-height: 42px;
+    background: #404144;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.first-page a{
+    color: #ffffff;
+}
+.first-page>a:not(:last-child){
+    margin-right: 42px;
+}
+/* first page end */
+/* slide start */
+.slide{
+    width: 992px;
+    height: 420px;
+    position: relative;
+    cursor: pointer;
+}
+.picture-slided>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.picture-slided>img:not(:first-child){
+    display: none;
+}
+.left-arrow{
+    cursor: pointer;
+    position: absolute;
+    width: 41px;
+    height: 69px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border:none;
+    z-index: 100;
+    background: url("../images/xiaomiguanwang/icon-slides.png");
+    background-position-x: -86px;
+}
+.right-arrow{
+    position: absolute;
+    width: 41px;
+    height: 69px;
+    right: 0;
+    top: 50%;
+    z-index:100;
+    transform: translateY(-50%);
+    border:none;
+    background-image: url("../images/xiaomiguanwang/icon-slides.png"); 
+    background-color: transparent;
+    background-position-x: -125px;
+    background-position-y: 0px;
+}
+.left-arrow:hover{
+    background-position:0;
+}
+.right-arrow:hover{
+    background-position-x:-43px; 
+}
+.footer-tag{
+    position: absolute;
+    z-index: 100;
+    bottom: 25px;
+    right: 30px;
+}
+.footer-tag>span{
+    display: inline-block;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    border: 1px solid #7A8795;
+    margin: 0 3px;
+    background-color: rgba(44,44,44,.3);
+    text-align: center;
+    cursor: pointer;
+}
+.footer-tag>span:hover{
+    background: #8a8484;
+    color: #ffffff;
+}
+.footer-tag .current{
+    background: #8a8484;
+    color: #ffffff;
+}
+/* slide end */
+/* navbar bottom start */
+.nav-bottom{
+    width:993px;
+    height:170px;
+}
+.nav-bottom>span{
+    display: inline-block;
+    width: 330px;
+    height: 170px;
+}
+.nav-bottom>span:first-child{
+    margin-right: -5px;
+    border-right: 1px solid #DFDFDF;
+}
+.nav-bottom>span:first-child+span{
+    margin-right: -4px;
+    border-right: 1px solid #DFDFDF;
+}
+/* navbar bottom end */
+/* right navbar end */
+/* content navbar end */
+/* xiaomi single star product start */
+.mi-starpro{
+    width: 1240px;
+    margin: 30px 0;
+}
+.mi-starpro-header{
+    height: 40px;
+    width: 1240px;
+    position: relative;
+}
+.mi-starpro-header>span:first-child{
+    font-size: 16px;
+    color: #565656;
+}
+.mi-starpro-header>span:first-child+span{
+    font-size: 10px;
+    color: #999999;
+    margin-left: 10px; 
+}
+.mi-starpro-header>button{
+    width: 33px;
+    height: 21px;
+    border: 0.5px solid #DFDFDF;
+    position: absolute;
+    bottom: 5px;
+}
+.select-left{
+    right: 33px;
+    background: url("../images/xiaomiguanwang/05.png") no-repeat;
+    background-position: center;
+}
+.select-right{
+    right: 0;
+    background: url("../images/xiaomiguanwang/06.png") no-repeat;
+    background-position: center;
+}
+.mi-starpro-content{
+    height: 315px;
+    width: 1240px;
+    border: 0.5px solid #DFDFDF;
+}
+.mi-starpro-content>div{
+    float: left;
+    height: 315px;
+    width: 310px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.mi-starpro-content>div:not(:last-child){
+    border-right: 0.5px solid #DFDFDF;
+}
+.mi-starpro-content>div>img+p{
+    font-size: 16px;
+    color: #565656;
+    margin-bottom: 10px;
+}
+.mi-starpro-content>div>img+p+p{
+    font-size: 10px;
+    color: #999999;
+}
+/* xiaomi single star product end */
+/* New shelves start */
+/* New shelves header start */
+.new-shelves{
+    margin-bottom: 73px;
+}
+.new-shelves-header{
+    width: 1240px;
+    height: 28px;
+    position: relative;
+}
+.new-shelves-header>span{
+    font-size: 16px;
+    color: #565656;
+}
+.more{
+    font-size: 16px;
+    color: #565656;
+    position: absolute;
+    right: 0;
+}
+/* New shelves header end */
+/* New shelves content start */
+.new-shelves-content{
+    width: 1240px;
+    height: 970px;
+    border: 0.5px solid #DFDFDF;
+    position: relative;
+}
+.shelves-content-left{
+    width: 930px;
+    height: 970px;
+    border-right: 0.5px solid #DFDFDF;
+    box-sizing: border-box;
+    position: relative;
+}
+.new-shelves-content div{
+    box-sizing: border-box;
+}
+.shelves-content-right{
+    width:310px;
+    height: 970px;
+    position: absolute;
+    right: 0;
+    top:0;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border-bottom: 0.5px solid #DFDFDF;
+}
+/* first floor start */
+.first-floor{
+    width: 930px;
+    height: 310px;
+}
+.white-speaker{
+    width: 620px;
+    height: 310px;
+    border-right: 0.5px solid #DFDFDF; 
+    border-bottom: 0.5px solid #DFDFDF; 
+    border-left: 0.5px solid #DFDFDF; 
+    box-sizing: border-box;
+    background: url("../images/xiaomiguanwang/fanghezi0407xiao.jpg");
+
+}
+.mi-bracelet{
+    width:310px;
+    height: 310px;
+    position: absolute;
+    border-bottom: 0.5px solid #DFDFDF; 
+    box-sizing: border-box;
+    top:0;
+    right: 0px;
+    background: url("../images/xiaomiguanwang/T1qaVvB7CT1RXrhCrK!220x220.jpg") no-repeat;
+    background-position: center;
+}
+.price{
+    font-size: 14px;
+    color: #66667D;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+/* first floor end */
+/* second floor start */
+.second-floor{
+    width: 920px;
+    height: 315px;
+}
+.key-circle{
+    border-right: 0.5px solid #DFDFDF; 
+    border-bottom: 0.5px solid #DFDFDF; 
+    width: 310px;
+    height: 157.5px;
+    position: relative;
+}
+.second-floor img{
+    height: 155px;
+    position: absolute;
+    right:1px;
+    top: 1px;
+}
+.price-key{
+    font-size: 14px;
+    color: #66667D;
+    position: absolute;
+    top:25px;
+    left: 25px;
+}
+.q8-earphone{
+    border-right: 0.5px solid #DFDFDF; 
+    border-bottom: 0.5px solid #DFDFDF; 
+    width: 310px;
+    height: 157.5px;
+    position: relative;
+}
+.milogo{
+    width: 310px;
+    height: 315px;
+    border-right: 0.5px solid #DFDFDF; 
+    border-bottom: 0.5px solid #DFDFDF; 
+    background: url("../images/xiaomiguanwang/T1crEgBCYT1RXrhCrK!220x220.jpg") no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 310px;
+    left:310px;
+}
+.mi4{
+    width: 310px;
+    height: 315px;
+    border-right: 0.5px solid #DFDFDF; 
+    border-bottom: 0.5px solid #DFDFDF;
+    background: url("../images/xiaomiguanwang/T12qZvB7CT1RXrhCrK!220x220.jpg") no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 310px;
+    right:0;
+}
+/* second floor end */
+/* third floor start */
+.third-floor{
+    width: 920px;
+    height: 345px;
+}
+.third-floor>div{
+    width: 310px;
+    height: 345px;
+}
+.minote{
+    border-right: 0.5px solid #DFDFDF; 
+    position: relative;
+    background: url("../images/xiaomiguanwang/baohuke.png") no-repeat;
+    background-position: center;
+}
+.mistick{
+    border-right: 0.5px solid #DFDFDF; 
+    background: url("../images/xiaomiguanwang/T1DrL_B4CT1RXrhCrK!220x220.jpg") no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom:0;
+    left: 310px;
+}
+.mixianfeng{
+    background: url("../images/xiaomiguanwang/T1GXxvBsET1RXrhCrK!220x220.jpg") no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* third floor end */
+.shelves-content-right>div:not(:last-child){
+    width: 310px;
+    height: 130px;
+    border-bottom: 0.5px solid #DFDFDF;
+    position: relative;
+    
+}
+.sandisk{
+    background-image: url("../images/xiaomiguanwang/T1ByZTBjJT1RXrhCrK.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 40px;
+}
+.special{
+    background-image: url("../images/xiaomiguanwang/channel-list-cool.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-position-y: 16px;
+}
+.fun{
+    background-image: url("../images/xiaomiguanwang/channel-list-new.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 185px;
+    background-position-y: 10px;
+}
+.sandisk>span{
+    font-size:14px;
+    color:#ffffff;
+    background: red;
+    margin-left: 50px;
+}
+.sandisk>div{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.price-special>p:first-child~p{
+    font-size:14px;
+}
+.price-special>p:last-child{
+    color: #66667D;
+}
+.price-special>p:first-child+p>span:first-child{
+    color:red;
+}
+.price-special>p:first-child+p>span:last-child{
+    color:#66667D;
+    text-decoration:line-through;
+}
+.special,.fun{
+    padding-top:30px;
+    padding-left: 20px;
+}
+.special>div>p:first-child~p,.fun>div>P:first-child~p{
+    font-size:14px;
+    color:#66667D;
+}
+.shelves-right-bottom>div:not(.recharge){
+    width:250px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.5px solid #DFDFDF;
+    margin-bottom: 14px;
+    position: relative;
+}
+.shelves-right-bottom{
+    padding-top: 50px;
+
+}
+.shelves-right-bottom>div:first-child>a{
+    color:red;
+}
+.shelves-right-bottom a{
+    font-size: 14px;
+    color: #66667D;
+}
+.shelves-right-bottom>div>a>span:last-child{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.recharge{
+    width:250px;
+    margin:40px auto 0 auto;
+}
+.recharge input,.recharge select,.recharge button{
+    width:250px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 0.5px solid #DFDFDF;
+}
+.recharge input{
+    margin:20px 0;
+}
+.recharge p:first-child{
+    font-size: 16px;
+    color: #66667D;
+}
+.recharge select{
+    margin: 0 0 20px 0;
+}
+.recharge p:not(:first-child){
+    font-size:14px;
+    color: #66667D;
+    margin-bottom: 6px;
+}
+.recharge button{
+    color: #ffffff;
+}
+/* New shelves content end */
+/* New shelves end */
+/* bottom start */
+.bottom{
+    height: 540px;
+    background: #FAFAFA;
+}
+.bottom-content{
+    height: 540px;
+    width: 1240px;
+    margin: 0 auto;
+}
+.bottom-header{
+    height: 160px;
+    width: 1240px;
+    border-bottom: 0.5px solid #DFDFDF;
+}
+.bottom-header>div{
+    width:248px;
+    height: 160px;
+    box-sizing: border-box;
+    float:left;
+    position: relative;
+}
+.bottom-header>div>img{
+    position: absolute;
+    top: 50px;
+    left:100px;
+}
+.bottom-header>div>p{
+    position: absolute;
+    bottom:37px;
+    left: 70px;
+    font-size:16px;
+    color: #66667D;
+}
+.bottom-second-floor{
+    height: 160px;
+    width: 1240px;
+    border-bottom: 0.5px solid #DFDFDF;
+    margin-top: 40px;
+}
+.bottom-second-floor>div:first-child{
+    height: 135px;
+    width: 170px;
+    border-right: 0.5px solid #DFDFDF;
+    float: left;
+}
+.bottom-second-floor>div:first-child~div:not(.customer-service){
+    height: 135px;
+    width: 165px;
+    border-right: 0.5px solid #DFDFDF;
+    float: left;
+    margin-left:30px;
+}
+.bottom-second-floor li{
+    list-style:none;
+}
+.bottom-second-floor>div>ul>li:first-child{
+    color: #333333;
+    margin-bottom: 20px;
+}
+.bottom-second-floor>div>ul>li:first-child~li{
+    color: #66667D;
+    font-size:12px;
+    margin-bottom: 14px;
+}
+.customer-service{
+    float: left;
+    height: 135px;
+    width:287px;
+    text-align: center;
+}
+.customer-service button{
+    height: 32px;
+    width: 120px;
+    background: #FF4A00;
+    color: #ffffff;
+    border: none;
+    font-size:12px;
+}
+.customer-service>p:first-child{
+    color: #9999B1;
+    font-size:24px;
+    margin-bottom: 20px;
+}
+.customer-service>p:first-child+p{
+    color: #66667D;
+    font-size:12px;
+    margin-bottom: 5px;
+}
+.customer-service>p:first-child+p+p{
+    color: #66667D;
+    font-size:12px;
+    margin-bottom: 15px;
+}
+.bottom-third-floor>div{
+    font-size:12px;
+    color: #333333;
+    text-align: center;
+}
+.bottom-third-floor a{
+    color: #333333;
+}
+.bottom-third-floor>div:first-child{
+    margin-top:40px;
+}
+.bottom-third-floor>div:first-child+div{
+    margin-top:5px;
+}
+.bottom-third-floor select{
+    width: 200px;
+    height: 40px;
+    border: 0.5px solid #DFDFDF;
+    border-radius: 2px;
+}
+.bottom-third-floor img{
+    vertical-align:middle;
+}
+.bottom-third-floor>div:last-child{
+    margin-top: 20px;
+}
